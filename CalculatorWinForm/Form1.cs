@@ -15,7 +15,7 @@ namespace CalculatorWinForm
 
         double num1 = 0;
         double num2 = 0;
-
+        bool res = false;
 
 
         public Form1()
@@ -35,56 +35,150 @@ namespace CalculatorWinForm
 
         private void btn1_Click(object sender, EventArgs e)
         {
-            textBox_Output_Result.Text = textBox_Output_Result.Text + 1;
+            if (res == true)
+            {
+                textBox_Output_Result.Clear();
+                textBox_Output_Result.Text = textBox_Output_Result.Text + 1;
+                res = false;
+            }
+            else
+            {
+                textBox_Output_Result.Text = textBox_Output_Result.Text + 1;
+            }
         }
 
         private void btn2_Click(object sender, EventArgs e)
         {
-            textBox_Output_Result.Text = textBox_Output_Result.Text + 2;
+            if (res == true)
+            {
+                textBox_Output_Result.Clear();
+                textBox_Output_Result.Text = textBox_Output_Result.Text + 2;
+                res = false;
+            }
+            else
+            {
+                textBox_Output_Result.Text = textBox_Output_Result.Text + 2;
+            }
         }
 
         private void btn3_Click(object sender, EventArgs e)
         {
-            textBox_Output_Result.Text = textBox_Output_Result.Text + 3;
+            if (res == true)
+            {
+                textBox_Output_Result.Clear();
+                textBox_Output_Result.Text = textBox_Output_Result.Text + 3;
+                res = false;
+            }
+            else
+            {
+                textBox_Output_Result.Text = textBox_Output_Result.Text + 3;
+            }
         }
 
         private void btn4_Click(object sender, EventArgs e)
         {
-            textBox_Output_Result.Text = textBox_Output_Result.Text + 4;
+            if (res == true)
+            {
+                textBox_Output_Result.Clear();
+                textBox_Output_Result.Text = textBox_Output_Result.Text + 4;
+                res = false;
+            }
+            else
+            {
+                textBox_Output_Result.Text = textBox_Output_Result.Text + 4;
+            }
         }
 
         private void btn5_Click(object sender, EventArgs e)
         {
-            textBox_Output_Result.Text = textBox_Output_Result.Text + 5;
+            if (res == true)
+            {
+                textBox_Output_Result.Clear();
+                textBox_Output_Result.Text = textBox_Output_Result.Text + 5;
+                res = false;
+            }
+            else
+            {
+                textBox_Output_Result.Text = textBox_Output_Result.Text + 5;
+            }
         }
 
         private void btn6_Click(object sender, EventArgs e)
         {
-            textBox_Output_Result.Text = textBox_Output_Result.Text + 6;
+            if (res == true)
+            {
+                textBox_Output_Result.Clear();
+                textBox_Output_Result.Text = textBox_Output_Result.Text + 6;
+
+                res = false;
+            }
+            else
+            {
+                textBox_Output_Result.Text = textBox_Output_Result.Text + 6;
+            }
         }
 
         private void btn7_Click(object sender, EventArgs e)
         {
-            textBox_Output_Result.Text = textBox_Output_Result.Text + 7;
+            if (res == true)
+            {
+                textBox_Output_Result.Clear();
+                textBox_Output_Result.Text = textBox_Output_Result.Text + 7;
+
+                res = false;
+            }
+            else
+            {
+                textBox_Output_Result.Text = textBox_Output_Result.Text + 7;
+            }
         }
 
         private void btn8_Click(object sender, EventArgs e)
         {
-            textBox_Output_Result.Text = textBox_Output_Result.Text + 8;
+            if (res == true)
+            {
+                textBox_Output_Result.Clear();
+                textBox_Output_Result.Text = textBox_Output_Result.Text + 8;
+                res = false;
+            }
+            else
+            {
+                textBox_Output_Result.Text = textBox_Output_Result.Text + 8;
+            }
+
         }
 
         private void btn9_Click(object sender, EventArgs e)
         {
-            textBox_Output_Result.Text = textBox_Output_Result.Text + 9;
+            if (res == true)
+            {
+                textBox_Output_Result.Clear();
+                textBox_Output_Result.Text = textBox_Output_Result.Text + 9;
+                res = false;
+            }
+            else
+            {
+                textBox_Output_Result.Text = textBox_Output_Result.Text + 9;
+            }
         }
         private void btn0_Click(object sender, EventArgs e)
         {
-            textBox_Output_Result.Text = textBox_Output_Result.Text + 0;
+            if (res == true)
+            {
+                textBox_Output_Result.Clear();
+                textBox_Output_Result.Text = textBox_Output_Result.Text + 0;
+                res = false;
+            }
+            else
+            {
+                textBox_Output_Result.Text = textBox_Output_Result.Text + 0;
+            }
         }
 
         private void btnClear_Click(object sender, EventArgs e)
         {
             textBox_Output_Result.Clear();
+            num1 = 0;
         }
 
         private void btnCalculate_Click(object sender, EventArgs e)
@@ -140,12 +234,14 @@ namespace CalculatorWinForm
                 textBox_Output_Result.Clear();
                 textBox_Output_Result.Text = textBox_Output_Result.Text + num2;
                 num1 = 0;
+                res = true;
             }
             else
             {
                 textBox_Output_Result.Clear();
                 textBox_Output_Result.Text = textBox_Output_Result.Text + num1;
                 num1 = 0;
+                res = true;
             }
 
         }
@@ -154,7 +250,7 @@ namespace CalculatorWinForm
         {
 
             string[] arr = textBox_Output_Result.Text.Split(" ");
-
+            res = false;
             if (textBox_Output_Result.Text != "")
             {
                     
@@ -214,6 +310,7 @@ namespace CalculatorWinForm
         private void btnMinus_Click(object sender, EventArgs e)
         {
             string[] arr = textBox_Output_Result.Text.Split(" ");
+            res = false;
 
             if (textBox_Output_Result.Text != "")
             {
@@ -275,6 +372,7 @@ namespace CalculatorWinForm
         private void btnMultiply_Click(object sender, EventArgs e)
         {
             string[] arr = textBox_Output_Result.Text.Split(" ");
+            res = false;
 
             if (textBox_Output_Result.Text != "")
             {
@@ -335,6 +433,7 @@ namespace CalculatorWinForm
         private void btnDivide_Click(object sender, EventArgs e)
         {
             string[] arr = textBox_Output_Result.Text.Split(" ");
+            res = false;
 
             if (textBox_Output_Result.Text != "")
             {
