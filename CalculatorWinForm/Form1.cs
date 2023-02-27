@@ -134,22 +134,19 @@ namespace CalculatorWinForm
                     textBox_Output_Result.Text = textBox_Output_Result.Text + num2;
                     num1 = 0;
                 }
-                else
-                {
-                    if (num1 == 0)
-                    {
-                        textBox_Output_Result.Clear();
-                        textBox_Output_Result.Text = textBox_Output_Result.Text + num2;
-                    }
-                    else
-                    {
-                        textBox_Output_Result.Clear();
-                        textBox_Output_Result.Text = textBox_Output_Result.Text + num1;
-                        num1 = 0;
-                    }
-                }
             }
-
+            if (num1 == 0)
+            {
+                textBox_Output_Result.Clear();
+                textBox_Output_Result.Text = textBox_Output_Result.Text + num2;
+                num1 = 0;
+            }
+            else
+            {
+                textBox_Output_Result.Clear();
+                textBox_Output_Result.Text = textBox_Output_Result.Text + num1;
+                num1 = 0;
+            }
 
         }
 
