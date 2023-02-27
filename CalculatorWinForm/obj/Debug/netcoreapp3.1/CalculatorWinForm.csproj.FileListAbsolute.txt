@@ -1,0 +1,17 @@
+C:\Users\DEZHURIK\Desktop\C_Sharp-Repeat\CalculatorWinForm\CalculatorWinForm\bin\Debug\netcoreapp3.1\CalculatorWinForm.exe
+C:\Users\DEZHURIK\Desktop\C_Sharp-Repeat\CalculatorWinForm\CalculatorWinForm\bin\Debug\netcoreapp3.1\CalculatorWinForm.deps.json
+C:\Users\DEZHURIK\Desktop\C_Sharp-Repeat\CalculatorWinForm\CalculatorWinForm\bin\Debug\netcoreapp3.1\CalculatorWinForm.runtimeconfig.json
+C:\Users\DEZHURIK\Desktop\C_Sharp-Repeat\CalculatorWinForm\CalculatorWinForm\bin\Debug\netcoreapp3.1\CalculatorWinForm.runtimeconfig.dev.json
+C:\Users\DEZHURIK\Desktop\C_Sharp-Repeat\CalculatorWinForm\CalculatorWinForm\bin\Debug\netcoreapp3.1\CalculatorWinForm.dll
+C:\Users\DEZHURIK\Desktop\C_Sharp-Repeat\CalculatorWinForm\CalculatorWinForm\bin\Debug\netcoreapp3.1\CalculatorWinForm.pdb
+C:\Users\DEZHURIK\Desktop\C_Sharp-Repeat\CalculatorWinForm\CalculatorWinForm\obj\Debug\netcoreapp3.1\CalculatorWinForm.csproj.AssemblyReference.cache
+C:\Users\DEZHURIK\Desktop\C_Sharp-Repeat\CalculatorWinForm\CalculatorWinForm\obj\Debug\netcoreapp3.1\CalculatorWinForm.Form1.resources
+C:\Users\DEZHURIK\Desktop\C_Sharp-Repeat\CalculatorWinForm\CalculatorWinForm\obj\Debug\netcoreapp3.1\CalculatorWinForm.Properties.Resources.resources
+C:\Users\DEZHURIK\Desktop\C_Sharp-Repeat\CalculatorWinForm\CalculatorWinForm\obj\Debug\netcoreapp3.1\CalculatorWinForm.csproj.GenerateResource.cache
+C:\Users\DEZHURIK\Desktop\C_Sharp-Repeat\CalculatorWinForm\CalculatorWinForm\obj\Debug\netcoreapp3.1\CalculatorWinForm.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DEZHURIK\Desktop\C_Sharp-Repeat\CalculatorWinForm\CalculatorWinForm\obj\Debug\netcoreapp3.1\CalculatorWinForm.AssemblyInfoInputs.cache
+C:\Users\DEZHURIK\Desktop\C_Sharp-Repeat\CalculatorWinForm\CalculatorWinForm\obj\Debug\netcoreapp3.1\CalculatorWinForm.AssemblyInfo.cs
+C:\Users\DEZHURIK\Desktop\C_Sharp-Repeat\CalculatorWinForm\CalculatorWinForm\obj\Debug\netcoreapp3.1\CalculatorWinForm.csproj.CoreCompileInputs.cache
+C:\Users\DEZHURIK\Desktop\C_Sharp-Repeat\CalculatorWinForm\CalculatorWinForm\obj\Debug\netcoreapp3.1\CalculatorWinForm.dll
+C:\Users\DEZHURIK\Desktop\C_Sharp-Repeat\CalculatorWinForm\CalculatorWinForm\obj\Debug\netcoreapp3.1\CalculatorWinForm.pdb
+C:\Users\DEZHURIK\Desktop\C_Sharp-Repeat\CalculatorWinForm\CalculatorWinForm\obj\Debug\netcoreapp3.1\CalculatorWinForm.genruntimeconfig.cache
